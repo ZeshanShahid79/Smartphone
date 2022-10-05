@@ -2,6 +2,8 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Friend asem = new Friend("Asem",123456);
+        System.out.println(asem);
     }
 }
